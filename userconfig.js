@@ -3,7 +3,7 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Dhaka",
     scale: "C",
   },
   clock: {
@@ -252,18 +252,6 @@ const default_config = {
               url: "https://www.youtube.com",
               icon: "brand-youtube",
               icon_color: "#fab387",
-            },
-            {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: "#f38ba8",
-            },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
-              icon_color: "#89b4fa",
             },
           ],
         },
